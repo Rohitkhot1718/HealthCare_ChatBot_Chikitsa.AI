@@ -1,0 +1,43 @@
+symptoms_data:
+  - symptom: headache
+    description: |
+      Headache is a pain or discomfort in the head or neck region. It can be caused by stress, dehydration, or other underlying issues. 
+      To manage headaches, it's important to get enough sleep, stay hydrated, and manage stress levels. Medications such as Aspirin and Acetaminophen can provide relief.
+
+  - symptom: fever
+    description: |
+      Alright. It's essential to get plenty of rest and stay hydrated. Consider taking a fever-reducing medication like Paracetamol or Ibuprofen. If symptoms persist or worsen, it's advisable to consult with a healthcare professional. Take care!
+
+  - symptom: cold
+    description: |
+      Alright. For a cold, consider getting plenty of rest, staying hydrated, and using over-the-counter cold remedies.
+      Consider taking a cold-reducing medication like Decongestants and Antihistamines. If symptoms persist or worsen, it's advisable to consult with a healthcare professional. Take care!
+
+
+  - symptom: cough
+    description: |
+      Coughing is the body's way of clearing irritants from the airways. It can be caused by infections, allergies, or other factors. To manage a cough, 
+      stay hydrated, use a humidifier to add moisture to the air, and avoid irritants like smoke and strong odors. Use a cough-reducing medication like Cough suppressants, 
+      Expectorants, and Bronchodilators.
+
+  - symptom: sore_throat
+    description: |
+      A sore throat is a painful or scratchy feeling in the throat. It can be caused by viral or bacterial infections. To manage a sore throat, gargle with warm saltwater, 
+      stay hydrated with warm liquids, and use throat lozenges. Use a sore throat-reducing medication like include Pain relievers like Acetaminophen or Ibuprofen.
+
+  - symptom: nausea
+    description: |
+      Nausea is an uneasy feeling in the stomach that may precede vomiting. It can be caused by infections, motion sickness, or other factors. To manage nausea, eat small, 
+      bland meals, avoid strong odors, and stay hydrated with clear fluids. Use a nausea-reducing medication like Antiemetic medications.
+
+  - symptom: muscle_pain
+    description: |
+      Muscle pain, also known as myalgia, is discomfort or pain in the muscles. It can be caused by overuse, injury, or underlying health conditions. To manage muscle pain, 
+      rest the affected muscles, apply ice or heat to the affected area, and take over-the-counter pain relievers. Use a muscle pain-reducing medication like Acetaminophen and NSAIDs (Nonsteroidal Anti-Inflammatory Drugs).
+
+
+  - symptom: medical_information
+    description: |
+      Infections can be caused by bacteria, viruses, or other microorganisms. Common symptoms include fever, fatigue, and body aches. 
+      It's important to seek medical attention for proper diagnosis and treatment. Preventive measures include washing hands frequently, practicing good respiratory hygiene 
+      (cover mouth and nose when coughing or sneezing), and maintaining a healthy lifestyle to boost the immune system.

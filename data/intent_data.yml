@@ -1,0 +1,178 @@
+intents:
+  - name: greeting
+    patterns:
+      - hey
+      - hello
+      - hi
+      - hello there
+      - hey there
+      - let's go
+      - hey dude
+      - helo
+      - hii
+    responses:
+      - Hello! How can I help you today?
+      - Hi there! What brings you here?
+      - Hi! How can I assist you?
+      - Hi! What's on your mind?
+      - Hey there! How can I help you?
+      - Let's go! What can I do for you?
+      - Hey dude! How may I assist you?
+
+  - name: thank_you
+    patterns:
+      - thank you
+      - thanks
+      - appreciate it
+    responses:
+      - "You're welcome! If you have any more questions, feel free to ask."
+      - You're welcome! If you have any more questions or need further assistance, feel free to ask. Wishing you a speedy recovery!
+
+  - name: goodbye
+    patterns:
+      - bye
+      - goodbye
+      - see you later
+    responses:
+      - Goodbye! Take care of yourself.
+      - Take care! If you have more questions, feel free to ask.
+      - Goodbye! Remember to prioritize your health.
+
+  - name: not_well
+    patterns:
+      - I am not feeling well
+      - I feel sick
+      - I am sick
+      - I am not well
+      - feeling unwell
+    responses:
+      - I'm sorry to hear that. Can you tell me what's wrong? what are your symptoms?"
+      - Oh no! I'm sorry to hear that. What's bothering you? Any specific symptoms?
+     
+  - name: feel_well
+    patterns:
+      - I feel fine
+      - I am feeling fine
+      - I feel great
+      - I feel awesome
+    responses:
+      - That's great to hear! If you have any health concerns in the future, feel free to reach out.
+
+  - name: cold_sym
+    patterns: 
+      - My nose is choked
+      - My chest is aching
+      - My nose is itching
+      - My throat is itching
+      - I have cold
+    responses:
+      - I'm sorry to hear you're dealing with a cold. In addition to the cold, are there any other symptoms you're experiencing?
+
+  - name: cold_conferm
+    patterns:
+      - runny nose and sore throat
+      - runny nose
+    responses:
+      -  I see, thank you for sharing. It sounds like you may have caught a cold. It's essential to take care of yourself. How many days have you been experiencing these symptoms?(ex:"one")
+
+  - symptom: cold
+    patterns :
+      - haven't taken anything
+      - 'no'
+
+  - name: fever_sym
+    patterns:
+      - My body temperature has raised
+      - I am shivering
+      - I am feeling weak
+      - I have weakness in my body
+      - I am having fever
+      - I have a fever
+      - I have fever
+      - I got fever
+    responses:
+      - I'm sorry to hear you're dealing with a fever. In addition to fever, are there any other symptoms you're experiencing?
+      - Yikes! Fever is no fun. Any other issues along with that?
+
+  - name: fever_conf
+    patterns:
+      - yes, i have body aches and a sore throat
+      - body aches and sore throat
+    responses:
+      - I see, thank you for sharing. It sounds like you may be coming down with something. Apart from the fever, body aches, and sore throat, how many days have you been experiencing these symptoms?(ex:"two")
+      - Ouch! That sounds rough. How many days have you been experiencing these symptoms?(ex:"two")
+
+  - symptom: fever
+    patterns:
+      - no, not yet
+      - not yet
+
+  - symptom: headache
+    patterns:
+      - I have a headache
+      - I have headache
+      - I am having pain in my forehead
+      - I have head pain
+      - Pain in my head 
+
+  - symptom: sore_throat  
+    patterns: 
+      - I have sore throat
+      - I have a sore throat
+      - sore throat  
+      - throat
+      - throat pain
+
+  - symptom: muscle_pain
+    patterns :
+      - I have a muscle pain  
+      - I have muscle pain 
+      - muscle pain
+      - my muscle is paining
+
+  - symptom: nausea
+    patterns:
+      - I have a nausea
+      - I have nausea
+
+  - symptom : cough
+    patterns :
+    - I have a cough    
+    - I have cough
+        
+
+  - symptom: mediacal_information  
+    patterns :
+      - give medical information
+      - medical info
+      - medical information  
+
+  - name: days
+    patterns:
+      - today
+      - yesterday
+      - one
+      - two
+      - three
+      - four
+      - five
+      - six
+      - seven
+      - eight
+      - nine
+    responses:
+      - Thank you for letting me know.Have you taken any medication?
+
+  - name: already_medicated
+    patterns:
+      - yes, I took some medicine
+      - already took medication
+    responses:
+      - Thank you for letting me know. Make sure to follow the recommended dosage. If symptoms persist, it's advisable to consult with a healthcare professional. Get well soon!
+
+  - name: default
+    patterns:
+      - "*"
+    responses:
+      - "I'm sorry, I didn't understand that. Can you please rephrase or ask another question?"
+
