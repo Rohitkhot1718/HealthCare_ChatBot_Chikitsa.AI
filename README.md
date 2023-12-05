@@ -5,8 +5,11 @@ Chikista.AI is an interactive health chatbot designed to provide personalized as
 ## 🚀 Features
 
 **Symptom Recognition:** Describe your symptoms, and Chikista.AI will provide relevant information and guidance.
+
 **Conversational Interface:** Engage in natural conversations with the chatbot for a user-friendly experience.
+
 **Dark and Light Modes:** Customize the app's theme based on your visual preferences.
+
 **Persistent Chat History:** Your chat history is saved, allowing you to review past conversations.
 
 
