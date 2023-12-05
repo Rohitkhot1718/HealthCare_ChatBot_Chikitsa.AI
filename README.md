@@ -18,7 +18,9 @@ Check your chat history for a detailed log.
 
 ## 🧠 Technology Stack
 Frontend: HTML, CSS, JavaScript
+
 Backend: Python (Flask)
+
 Machine Learning: Utilizes ML models for enhanced understanding of user inputs.
 
 ## 📝 License
