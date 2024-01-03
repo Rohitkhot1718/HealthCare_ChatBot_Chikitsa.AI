@@ -9,7 +9,7 @@ import random
 import re
 import json
 import spacy
-
+import os
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 app.secret_key = config('FLASK_SECRET_KEY')
@@ -57,8 +57,8 @@ def load_data(file_path):
 # Load the spaCy model
 nlp = spacy.load("en_core_web_sm")
 
-intent_data = load_data(r'Chikista.AI\data\intent_data.yml')
-symptoms_data = load_data(r'Chikista.AI\data\symptoms_data.yml')
+intent_data = load_data(r'docs\data\intent_data.yml')
+symptoms_data = load_data(r'docs\data\symptoms_data.yml')
 intents = intent_data.get('intents', [])
 
 # Extract patterns and responses from intent data
@@ -160,6 +160,7 @@ def index():
         return redirect(url_for('chat'))
     return render_template('index.html')
 
+
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
@@ -223,3 +224,4 @@ def logout():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
