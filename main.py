@@ -55,10 +55,11 @@ def load_data(file_path):
     return data
 
 # Load the spaCy model
+#install this python -m spacy download en_core_web_sm
 nlp = spacy.load("en_core_web_sm")
 
-intent_data = load_data(r'docs\data\intent_data.yml')
-symptoms_data = load_data(r'docs\data\symptoms_data.yml')
+intent_data = load_data(r'data\intent_data.yml')
+symptoms_data = load_data(r'data\symptoms_data.yml')
 intents = intent_data.get('intents', [])
 
 # Extract patterns and responses from intent data
