@@ -1,10 +1,10 @@
-# Chikista.AI Healthcare Chatbot
+# Chikitsa.AI Healthcare Chatbot
 
-Chikista.AI is an interactive health chatbot designed to provide personalized assistance for various health-related queries. Whether you have symptoms, need medical information, or just want to chat, Chikista.AI is here for you.
+Chikitsa.AI is an interactive health chatbot designed to provide personalized assistance for various health-related queries. Whether you have symptoms, need medical information, or just want to chat, Chikitsa.AI is here for you.
 
 ## 🚀 Features
 
-**Symptom Recognition:** Describe your symptoms, and Chikista.AI will provide relevant information and guidance.
+**Symptom Recognition:** Describe your symptoms, and Chikitsa.AI will provide relevant information and guidance.
 
 **Conversational Interface:** Engage in natural conversations with the chatbot for a user-friendly experience.
 
